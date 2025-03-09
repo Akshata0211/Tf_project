@@ -19,7 +19,9 @@ This Terraform project demonstrates how to host a simple static website on AWS u
 **provider.tf**: Configures the AWS provider to interact with AWS resources, including the region for provisioning resources.  
 **variables.tf**: Defines a variable for the bucket name, with a default value of aktfbucket23.  
 
-## Project WorkFlow
+## Project Workflow
+
+### Setup
  
    Start by cloning the repository to your local machine:
    ```bash
@@ -49,7 +51,7 @@ This Terraform project demonstrates how to host a simple static website on AWS u
    git push origin main
    ```
 
-## Running Terraform Code
+### Running Terraform Code
  
    Initialize the Terraform configuration, which will download the necessary provider plugins:
    ```bash
