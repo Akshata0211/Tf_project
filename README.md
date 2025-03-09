@@ -3,9 +3,8 @@
 This Terraform project automates the process of creating an AWS S3 bucket for static website hosting. It involves configuring the S3 bucket to serve static content such as HTML files, along with applying necessary settings for public access and ownership control. The goal of this project is to deploy a static website with minimal manual intervention using Terraform.
 
 ## Key Features:
-**S3 Bucket Creation**: Creates an S3 bucket that will host the static website.
-
-**Static Website Hosting**: Configures the S3 bucket to serve an index.html and error.html file.
+**S3 Bucket Creation**: Creates an S3 bucket that will host the static website.  
+**Static Website Hosting**: Configures the S3 bucket to serve an index.html and error.html file.  
 **Public Access**: The S3 bucket is configured for public access to allow users to view the website from anywhere.
 **Ownership Control and ACLs**: Ownership controls are applied to ensure the bucket owner has control over the objects, and ACLs are set to allow public-read access for the files.
 **Automatic Resource Management**: Terraform handles the creation and management of AWS resources, providing a consistent and repeatable environment for static website hosting.
