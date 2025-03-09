@@ -5,8 +5,8 @@ This Terraform project automates the process of creating an AWS S3 bucket for st
 ## Key Features:
 **S3 Bucket Creation**: Creates an S3 bucket that will host the static website.  
 **Static Website Hosting**: Configures the S3 bucket to serve an index.html and error.html file.  
-**Public Access**: The S3 bucket is configured for public access to allow users to view the website from anywhere.
-**Ownership Control and ACLs**: Ownership controls are applied to ensure the bucket owner has control over the objects, and ACLs are set to allow public-read access for the files.
+**Public Access**: The S3 bucket is configured for public access to allow users to view the website from anywhere.  
+**Ownership Control and ACLs**: Ownership controls are applied to ensure the bucket owner has control over the objects, and ACLs are set to allow public-read access for the files.  
 **Automatic Resource Management**: Terraform handles the creation and management of AWS resources, providing a consistent and repeatable environment for static website hosting.
 
 ## Project Summary
@@ -14,10 +14,10 @@ This Terraform project demonstrates how to host a simple static website on AWS u
 
 **Terraform Configuration Files**:
 
-**main.tf**: Defines the S3 bucket and its configurations, including the website hosting setup, ownership controls, and public access settings.
-**output.tf**: Specifies the output variable that provides the URL of the hosted static website (S3 endpoint).
-**provider.tf**: Configures the AWS provider to interact with AWS resources, including the region for provisioning resources.
-**variables.tf**: Defines a variable for the bucket name, with a default value of aktfbucket23.
+**main.tf**: Defines the S3 bucket and its configurations, including the website hosting setup, ownership controls, and public access settings.  
+**output.tf**: Specifies the output variable that provides the URL of the hosted static website (S3 endpoint).  
+**provider.tf**: Configures the AWS provider to interact with AWS resources, including the region for provisioning resources.  
+**variables.tf**: Defines a variable for the bucket name, with a default value of aktfbucket23.  
 
 ## Project WorkFlow
  
